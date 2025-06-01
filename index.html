@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BikeZone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><span>B</span>ike<span>Z</span>one</h1>
+            <nav>
+                <ul>
+                    <li><a href="home">Home</a></li>
+                    <li><a href="bikes">Bikes</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Ride Your Passion</h2>
+            <p>Explore our premium collection of bikes crafted for adventure and performance.</p>
+            <a href="bikes" class="btn">Discover Bikes</a>
+        </div>
+    </section>
+
+    <section id="bikes">
+        <h2>Our Bikes</h2>
+        <div class="bikes-grid">
+            <div class="bike-card">
+                <h3>Cafe Racer Bike</h3>
+                <p>Perfect for off-road adventures and rugged terrains.</p>
+                <img src="./images/gt650.jpg" alt="Cafe Racer Bike">
+            </div>
+            <div class="bike-card">
+                <h3>Sports Bike</h3>
+                <p>Designed for speed and efficiency on paved roads.</p>
+                <img src="./images/mt15.jpg" alt="Sports Bike">
+            </div>
+            <div class="bike-card">
+                <h3>Racing Bike</h3>
+                <p>Road racing is a form of motorcycle racing held on paved road surfaces.</p>
+                <img src="./images/bmw.jpg" alt="Racing Bike">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="email" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 BikeZone. All rights reserved.</p>
+    </footer>
+</body>
+</html>
