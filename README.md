@@ -14,7 +14,7 @@ BikeZone highlights different types of bikes in a clean and structured layout. I
 
 | Start | Middle | End |
 |-------|--------|-----|
-| ![Start]() | ![Middle]() | ![End]()
+| ![Start](https://github.com/Ishaq-Shaikh/Bike-Zone/blob/eba793ec95d1a5495990415da967a637b36a61b2/images/bike-zone-1.png) | ![Middle](https://github.com/Ishaq-Shaikh/Bike-Zone/blob/eba793ec95d1a5495990415da967a637b36a61b2/images/bike-zone-2.png) | ![End](https://github.com/Ishaq-Shaikh/Bike-Zone/blob/eba793ec95d1a5495990415da967a637b36a61b2/images/bike-zone-3.png)
 
 ---
 
